@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <title>Ping Pong</title>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <div class="container">
+        <header class="jumbotron">
+            <h1>Ping Pong</h1>
+            <h2>Let's play!</h2>
+    </div>
+
+    <div class="side-left">
+    </div>
+    <div class="side-right">
+        <h3>Rules</h3>
+        <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+            <li>Numbers divisible by 3 become 'ping'</li>
+            <li>Numbers divisible by 5 become 'pong'</li>
+            <li>Numbers divisible by 15 become 'pingpong'</li>
+        </ol>
+
+        <form id="display">
+            <div class="entering">
+                <label for="pingpong">Enter your number here:</label>
+                <input id="pingpong" type="text">
+                <button type="submit" class="btn">PING PONG!!</button>
+            </div>
+        </form>
+
+        <div class="col-lg-3 col-md-3 Push">
+            <p><span class="result-table"></span></p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
